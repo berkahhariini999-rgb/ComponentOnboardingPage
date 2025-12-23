@@ -57,6 +57,7 @@ struct ContentView: View {
                 .padding(.vertical, 15)
             } onContinue: {
                showOnBoarding = false
+                print("Close Sheet")
             }
         }
     }
